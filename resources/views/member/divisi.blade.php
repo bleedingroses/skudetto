@@ -15,7 +15,7 @@
             <div class="card">                            
                 <div class="right-page-header">
                     <div class="align-self-center">
-                        <h4 class="card-title m-t-10 text-center">{{ $category->name }}</h4></div>
+                        <h4 class="card-title m-t-10 text-center">{{ $category->name }}</h4>
                     </div>
                     <div class="table-responsive justify-content-center">
                         <table id="demo-foo-addrow" class="table table-hover no-wrap contact-list">
