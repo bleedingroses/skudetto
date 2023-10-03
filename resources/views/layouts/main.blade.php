@@ -9,25 +9,25 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Favicon icon -->
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-        <title>Skudetto</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon.png') }}">
+        <title>Skudetto | Laravel</title>
         <!-- Bootstrap Core CSS -->
-        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet">
         <!-- This page CSS -->
         <!-- chartist CSS -->
-        <link href="assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
-        <link href="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/chartist-js/dist/chartist.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css') }}" rel="stylesheet">
         <!--c3 CSS -->
-        <link href="assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/c3-master/c3.min.css') }}" rel="stylesheet">
         <!--Toaster Popup message CSS -->
-        <link href="assets/plugins/toast-master/css/jquery.toast.css" rel="stylesheet">
+        <link href="{{ asset('assets/plugins/toast-master/css/jquery.toast.css') }}" rel="stylesheet">
         <!-- Custom CSS -->
-        <link href="horizon/css/style.css" rel="stylesheet">
+        <link href="{{ asset('horizon/css/style.css') }}" rel="stylesheet">
         <!-- Dashboard 1 Page CSS -->
-        <link href="horizon/css/pages/dashboard1.css" rel="stylesheet">
+        <link href="{{ asset('horizon/css/pages/dashboard1.css') }}" rel="stylesheet">
         <!-- You can change the theme colors from here -->
-        <link href="horizon/css/colors/blue.css" id="theme" rel="stylesheet">
+        <link href="{{ asset('horizon/css/colors/blue.css') }}" id="theme" rel="stylesheet">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -42,7 +42,33 @@
         <div>
             @yield('container')
         </div>
-
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="{{ asset('assets/plugins/bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="{{ asset('horizon/js/perfect-scrollbar.jquery.min.js') }}"></script>
+    <!--Wave Effects -->
+    <script src="{{ asset('horizon/js/waves.js') }}"></script>
+    <!--Menu sidebar -->
+    <script src="{{ asset('horizon/js/sidebarmenu.js') }}"></script>
+    <!--stickey kit -->
+    <script src="{{ asset('assets/plugins/sticky-kit-master/dist/sticky-kit.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
+    <!--Custom JavaScript -->
+    <script src="{{ asset('horizon/js/custom.min.js') }}"></script>
+    <!-- Footable -->
+    <script src="{{ asset('assets/plugins/footable/js/footable.all.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap-select/bootstrap-select.min.js') }}" type="text/javascript"></script>
+    <!--FooTable init-->
+    <script src="{{ asset('horizon/js/footable-init.js') }}"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="{{ asset('assets/plugins/styleswitcher/jQuery.style.switcher.js') }}"></script>
     </body>
 
 </html>

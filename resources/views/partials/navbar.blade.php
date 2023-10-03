@@ -24,16 +24,16 @@
                         <!-- Logo icon --><b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="assets/images/id-shield.png" alt="homepage" class="dark-logo" />
+                            <img src="{{ asset('assets/images/id-shield.png') }}" alt="homepage" class="dark-logo" />
                             <!-- Light Logo icon -->
-                            <img src="assets/images/id-shield.png" alt="homepage" class="light-logo" />
+                            <img src="{{ asset('assets/images/id-shield.png') }}" alt="homepage" class="light-logo" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text --><span>
                          <!-- dark Logo text -->
-                         <img src="assets/images/skudetto-text.png" width="150" alt="homepage" class="dark-logo" />
+                         <img src="{{ asset('assets/images/skudetto-text.png') }}" width="150" alt="homepage" class="dark-logo" />
                          <!-- Light Logo text -->
-                         <img src="assets/images/skudetto-text.png" width="150" class="light-logo" alt="homepage" /></span> </a>
+                         <img src="{{ asset('assets/images/skudetto-text.png') }}" width="150" class="light-logo" alt="homepage" /></span> </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
@@ -202,12 +202,12 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/redo.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="{{ asset('assets/images/users/redo.jpg') }}" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated flipInY">
                                 <ul class="dropdown-user">
                                     <li>
                                         <div class="dw-user-box">
-                                            <div class="u-img"><img src="assets/images/users/redo.jpg" alt="user"></div>
+                                            <div class="u-img"><img src="{{ asset('assets/images/users/redo.jpg') }}" alt="user"></div>
                                             <div class="u-text">
                                                 <h4>Redo Almy</h4>
                                                 <p class="text-muted">almighty.ridho@gmail.com</p><a href="#" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
@@ -242,7 +242,7 @@
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-small-cap">PERSONAL</li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Divisi</span></a>
+                        {{-- <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Divisi</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="#">Kiyosi Malang</a></li>
                                 <li><a href="#">Perlengkapan Malang</a></li>
@@ -270,7 +270,7 @@
                                 <li><a href="#">Tiktok</a></li>
                                 <li><a href="#">Tokopedia</a></li>
                             </ul>
-                        </li>
+                        </li> --}}
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-table"></i><span class="hide-menu">Manager</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="/manager">Manager Divisi</a></li>
