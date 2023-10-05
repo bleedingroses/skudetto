@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('skudetto.index');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 Route::get('/member',[MemberController::class, 'show']);
 Route::get('/member/{id}/divisi', [CategoryController::class, 'profile']);
 Route::get('/member/tambah',[MemberController::class, 'tambah']);

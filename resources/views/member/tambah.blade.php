@@ -19,9 +19,9 @@
                 <div class="ml-5">
                         <form action="/member/simpan" method="post" enctype="multipart/form-data">
                             @csrf
-                            <div class="justify-content-center mb-3">
+                            <div class="justify-content-center w-50 mb-3">
                                 <label for="divisi" class="form-label"><h5>Divisi</h5></label><br>
-                                <select name="divisi" id="divisi" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                <select name="divisi" id="divisi" class="form-control form-control-line" aria-label=".form-select-lg example">
                                     <option selected>Masukkan Nama Divisi</option>
                                     <option value="General Affair">General Affair</option>
                                     <option value="Perlengkapan Malang">Perlengkapan Malang</option>
@@ -44,7 +44,7 @@
                             </div><br>
                             <div class="mb-3 w-50">
                                 <label for="pendidikan" class="form-label"><h5>Pendidikan</h5></label><br>
-                                <select name="pendidikan" id="pendidikan" class="form-select form-select-lg mb-3">
+                                <select name="pendidikan" id="pendidikan" class="form-control form-control-line">
                                     <option value="">Masukkan Pendidikan Terakhir</option>
                                     <option value="SMP">SMP</option>
                                     <option value="SMA">SMA</option>

@@ -210,11 +210,11 @@
                                             <div class="u-img"><img src="{{ asset('assets/images/users/redo.jpg') }}" alt="user"></div>
                                             <div class="u-text">
                                                 <h4>Redo Almy</h4>
-                                                <p class="text-muted">almighty.ridho@gmail.com</p><a href="#" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+                                                <p class="text-muted">almighty.ridho@gmail.com</p><a href="/profile" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
                                         </div>
                                     </li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
+                                    <li><a href="/profile"><i class="ti-user"></i> My Profile</a></li>
                                     <li><a href="#"><i class="ti-wallet"></i> My Salary</a></li>
                                     <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
                                     <li role="separator" class="divider"></li>

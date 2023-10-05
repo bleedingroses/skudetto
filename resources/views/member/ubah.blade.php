@@ -22,7 +22,7 @@
                         @csrf
                             <div class="mb-3 w-50">
                                 <label for="divisi" class="form-label"><h5>Divisi</h5></label><br>
-                                <select name="divisi" id="divisi" class="form-select form-select-lg mb-3">
+                                <select name="divisi" id="divisi" class="form-control form-control-line">
                                     <option selected>{{ $member->divisi }}</option>
                                     <option value="General Affair">General Affair</option>
                                     <option value="Perlengkapan Malang">Perlengkapan Malang</option>
@@ -45,7 +45,7 @@
                             </div><br>
                             <div class="mb-3 w-50">
                                 <label for="pendidikan" class="form-label"><h5>Pendidikan</h5></label><br>
-                                <select name="pendidikan" id="pendidikan" class="form-select form-select-lg mb-3">
+                                <select name="pendidikan" id="pendidikan" class="form-control form-control-line">
                                     <option selected>{{ $member->pendidikan }}</option>
                                     <option value="SMP">SMP</option>
                                     <option value="SMA">SMA</option>
