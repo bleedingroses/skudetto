@@ -55,7 +55,7 @@
                                                         <td>{{ $index + $members->firstItem() }}</td>
                                                         <td>
                                                             <div role="group" aria-label="Vertical radio toggle button group">
-                                                                <a class="btn btn-outline-info btn-rounded" href="/member/{{$member->id}}/ubah">Ubah</a>
+                                                                <a class="btn btn-outline-info btn-rounded mb-2" href="/member/{{$member->id}}/ubah">Ubah</a>
                                                                 <form action="/member/{{$member->id}}" method="post">
                                                                     @csrf
                                                                     @method('delete')

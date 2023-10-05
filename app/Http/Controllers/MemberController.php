@@ -34,7 +34,7 @@ class MemberController extends Controller
     public function ubah($id)
     {
         $member = Member::find($id);
-        return view('member', 
+        return view('member.ubah', 
             compact(['member']));
     }
 
