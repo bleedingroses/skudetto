@@ -20,7 +20,7 @@
                 <!-- Logo -->
                 <!-- ============================================================== -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <!-- Logo icon --><b>
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
@@ -33,7 +33,8 @@
                          <!-- dark Logo text -->
                          <img src="{{ asset('assets/images/skudetto-text.png') }}" width="150" alt="homepage" class="dark-logo" />
                          <!-- Light Logo text -->
-                         <img src="{{ asset('assets/images/skudetto-text.png') }}" width="150" class="light-logo" alt="homepage" /></span> </a>
+                         <img src="{{ asset('assets/images/skudetto-text.png') }}" width="150" class="light-logo" alt="homepage" /></span>
+                    </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
