@@ -243,42 +243,13 @@
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-small-cap">PERSONAL</li>
-                        {{-- <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Divisi</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Kiyosi Malang</a></li>
-                                <li><a href="#">Perlengkapan Malang</a></li>
-                                <li><a href="#">Perlengkapan Surabaya</a></li>
-                            </ul>
-                        </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-bullseye"></i><span class="hide-menu">Stok</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Kiyosi</a></li>
-                                <li><a href="#">Perlengkapan</a></li>
-                            </ul>
-                        </li>                   
-                        <li class="nav-small-cap">FORMS, TABLE &amp; WIDGETS</li>
-                        <li class="two-column"> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-file"></i><span class="hide-menu">Data</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Kas</a></li>
-                                <li><a href="#">Aset</a></li>
-                                <li><a href="#">Omset</a></li>
-                            </ul>
-                        </li>
-                        <li class="three-column"> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Marketplace</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Shopee</a></li>
-                                <li><a href="#">Lazada</a></li>
-                                <li><a href="#">Tiktok</a></li>
-                                <li><a href="#">Tokopedia</a></li>
-                            </ul>
-                        </li> --}}
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-table"></i><span class="hide-menu">Manager</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-account-check"></i><span class="hide-menu">Manager</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="/manager">Manager Divisi</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-widgets"></i><span class="hide-menu">Karyawan</span></a>
+                            <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Karyawan</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li>
                                     <a class="has-arrow " href="#" aria-expanded="false">General Affair</a>
@@ -312,11 +283,24 @@
                                 </li>
                             </ul>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-arrange-send-backward"></i><span class="hide-menu">Daftar Karyawan</span></a>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-contacts"></i><span class="hide-menu">Daftar Karyawan</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="/member">Daftar Karyawan</a></li>
                             </ul>
                         </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-clipboard-text"></i><span class="hide-menu">SOP</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="#">Pegawai</a></li>
+                                <li><a href="#">Pemasaran</a></li>
+                                <li><a href="#">Pemesanan</a></li>
+                                <li><a href="#">Pengiriman</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-calendar"></i><span class="hide-menu">Kalender</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="/calendar">Kalender</a></li>
+                            </ul>
+                        </li>                   
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->

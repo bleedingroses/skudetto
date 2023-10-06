@@ -14,7 +14,8 @@
         <!-- Bootstrap Core CSS -->
         <link href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet">
-        <!-- This page CSS -->
+        <!-- Calendar CSS -->
+        <link href="../assets/plugins/calendar/dist/fullcalendar.css" rel="stylesheet" />
         <!-- chartist CSS -->
         <link href="{{ asset('assets/plugins/chartist-js/dist/chartist.min.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css') }}" rel="stylesheet">
@@ -60,6 +61,11 @@
     <script src="{{ asset('assets/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
     <!--Custom JavaScript -->
     <script src="{{ asset('horizon/js/custom.min.js') }}"></script>
+    <!-- Calendar JavaScript -->
+    <script src="{{ asset('assets/plugins/calendar/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/moment/moment.js') }}"></script>
+    <script src="{{ asset('assets/plugins/calendar/dist/fullcalendar.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/calendar/dist/cal-init.js') }}"></script>
     <!-- Footable -->
     <script src="{{ asset('assets/plugins/footable/js/footable.all.min.js') }}"></script>
     <script src="{{ asset('assets/plugins/bootstrap-select/bootstrap-select.min.js') }}" type="text/javascript"></script>

@@ -35,8 +35,8 @@
                                 <div class="d-flex no-block">
                                     <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="assets/images/icon/income.png" alt="Income" /></div>
                                     <div class="align-self-center">
-                                        <h6 class="text-muted m-t-10 m-b-0">Aset</h6>
-                                        <h2 class="m-t-0">953,000</h2></div>
+                                        <h6 class="text-muted m-t-10 m-b-0">Divisi</h6>
+                                        <h2 class="m-t-0">4</h2></div>
                                 </div>
                             </div>
                         </div>
@@ -47,8 +47,8 @@
                                 <div class="d-flex no-block">
                                     <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="assets/images/icon/expense.png" alt="Income" /></div>
                                     <div class="align-self-center">
-                                        <h6 class="text-muted m-t-10 m-b-0">Omset</h6>
-                                        <h2 class="m-t-0">236,000</h2></div>
+                                        <h6 class="text-muted m-t-10 m-b-0">Manager</h6>
+                                        <h2 class="m-t-0">2</h2></div>
                                 </div>
                             </div>
                         </div>
@@ -57,10 +57,10 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex no-block">
-                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="assets/images/icon/assets.png" alt="Income" /></div>
+                                    <div class="m-r-20 align-self-center"><span class="lstick m-r-20"></span><img src="assets/images/icon/staff.png" alt="Income" /></div>
                                     <div class="align-self-center">
-                                        <h6 class="text-muted m-t-10 m-b-0">Kas</h6>
-                                        <h2 class="m-t-0">987,563</h2></div>
+                                        <h6 class="text-muted m-t-10 m-b-0">Karyawan</h6>
+                                        <h2 class="m-t-0">14</h2></div>
                                 </div>
                             </div>
                         </div>
