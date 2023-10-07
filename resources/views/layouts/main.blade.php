@@ -14,6 +14,10 @@
         <!-- Bootstrap Core CSS -->
         <link href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- page css -->
+        <link href="css/pages/file-upload.css" rel="stylesheet">
         <!-- Calendar CSS -->
         <link href="../assets/plugins/calendar/dist/fullcalendar.css" rel="stylesheet" />
         <!-- chartist CSS -->

@@ -29,6 +29,10 @@ Route::get('/calendar', function () {
     return view('calendar');
 });
 
+Route::get('/pegawai', function () {
+    return view('sop.pegawai');
+});
+
 Route::get('/member',[MemberController::class, 'show']);
 Route::get('/member/{id}/divisi', [CategoryController::class, 'profile']);
 Route::get('/member/tambah',[MemberController::class, 'tambah']);

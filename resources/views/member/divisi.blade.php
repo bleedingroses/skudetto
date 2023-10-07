@@ -34,7 +34,7 @@
                             <tbody>
                             <tr>
                                 <td>{{ $no++ }}</td>
-                                <td><img src="{{ asset('img/'.$member->gambar) }}" width="50" alt=""></td>
+                                <td><img src="{{ asset('img/'.$member->gambar) }}" width="75" alt=""></td>
                                 <td>{{$member['nama']}}</td>
                                 <td>{{$member['email']}}</td>
                                 <td>{{$member['jurusan']}}</td>

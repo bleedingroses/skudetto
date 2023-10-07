@@ -50,7 +50,7 @@
                                     <option value="SMA">SMA</option>
                                     <option value="SMK">SMK</option>
                                     <option value="Strata-1">Strata-1</option>
-                                    </select><br>
+                                    </select><br><br>
                             </div>
                             <div class="mb-3 w-50">
                                 <label for="gambar" class="form-label"><h5>Upload Gambar</h5></label>

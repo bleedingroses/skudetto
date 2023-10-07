@@ -290,7 +290,7 @@
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-clipboard-text"></i><span class="hide-menu">SOP</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="#">Pegawai</a></li>
+                                <li><a href="/pegawai">Pegawai</a></li>
                                 <li><a href="#">Pemasaran</a></li>
                                 <li><a href="#">Pemesanan</a></li>
                                 <li><a href="#">Pengiriman</a></li>

@@ -24,7 +24,7 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-13">
                         <div class="card">                            
                                     <div class="right-page-header">
                                             <div class="align-self-center">
