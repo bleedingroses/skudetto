@@ -5,6 +5,7 @@ use App\Http\Controllers\MemberController;
 use App\Models\Category;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\TahsinController;
 
 /*
 |--------------------------------------------------------------------------
