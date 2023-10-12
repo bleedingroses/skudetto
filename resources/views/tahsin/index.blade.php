@@ -53,7 +53,7 @@
                                                         <td>{{ $index + $tahsins->firstItem() }}</td>
                                                         <td>
                                                             <div role="group" aria-label="Vertical radio toggle button group">
-                                                                <a class="btn btn-outline-info btn-rounded mb-2" href="/tahsin/{{$member->id}}/ubah">Ubah</a>
+                                                                <a class="btn btn-outline-info btn-rounded mb-2" href="/tahsin/{{$tahsin->id}}/ubah">Ubah</a>
                                                                 <form action="/tahsin/{{$tahsin->id}}" method="post">
                                                                     @csrf
                                                                     @method('delete')
