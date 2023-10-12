@@ -63,8 +63,8 @@
                                                         </td>
                                                         <td>{{ $tahsin['grup'] }}</td>
                                                         <td>{{$tahsin['nama']}}</td>
-                                                        <td>{{$member['surat']}}</td>
-                                                        <td>{{$member['ayat']}}</td>
+                                                        <td>{{$tahsin['surat']}}</td>
+                                                        <td>{{$tahsin['ayat']}}</td>
                                                     </tr>
                                                 </tbody>
                                             @endforeach
