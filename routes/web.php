@@ -45,3 +45,10 @@ Route::get('/manager', function () {
     return view('member.manager');
 });
 
+Route::get('/tahsin',[TahsinController::class, 'show']);
+Route::get('/tahsin/tambah',[TahsinController::class, 'tambah']);
+Route::post('/tahsin/simpan',[TahsinController::class, 'simpan']);
+Route::get('/tahsin/{id}/ubah',[TahsinController::class, 'ubah']);
+Route::put('/tahsin/{id}',[TahsinController::class, 'update']);
+Route::delete('/tahsin/{id}',[TahsinController::class, 'destroy']);
+
