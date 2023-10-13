@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('category_id')->nullable();
             $table->enum('grup', ['Umar Bin Khattab', 'Utsman Bin Affan', 'Abu Bakar']);
+            $table->string('gambar');
             $table->string('nama');
             $table->string('surat')->nullable();
             $table->string('ayat')->nullable();

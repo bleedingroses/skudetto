@@ -42,9 +42,13 @@
                                                     <th>No.</th>
                                                     <th>Aksi</th>
                                                     <th>Grup</th>
+                                                    <th>Jadwal</th>
                                                     <th>Nama</th>
-                                                    <th>Surat</th>
+                                                    <th>Gambar</th>
+                                                    <th>Juz</th>
+                                                    <th>Nama Surat</th>
                                                     <th>Ayat</th>
+                                                    <th>Pengajar</th>
                                                 </tr>
                                             </thead>
                                             @foreach($tahsins as $index => $tahsin)
@@ -62,9 +66,13 @@
                                                             </div>
                                                         </td>
                                                         <td>{{ $tahsin['grup'] }}</td>
+                                                        <td>Senin - Rabu</td>
+                                                        <td><img src="{{ asset('img/'.$tahsin->gambar) }}" width="100" alt=""></td>
                                                         <td>{{$tahsin['nama']}}</td>
+                                                        <td>Juz 30</td>
                                                         <td>{{$tahsin['surat']}}</td>
                                                         <td>{{$tahsin['ayat']}}</td>
+                                                        <td>Ustadz Fauzi Ahmad</td>
                                                     </tr>
                                                 </tbody>
                                             @endforeach
