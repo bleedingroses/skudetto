@@ -24,7 +24,7 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-13">
+                    <div class="col-12">
                         <div class="card">                            
                                     <div class="right-page-header">
                                             <div class="align-self-center">
@@ -41,10 +41,10 @@
                                                 <tr>
                                                     <th>No.</th>
                                                     <th>Aksi</th>
+                                                    <th>Gambar</th>
+                                                    <th>Nama</th>
                                                     <th>Grup</th>
                                                     <th>Jadwal</th>
-                                                    <th>Nama</th>
-                                                    <th>Gambar</th>
                                                     <th>Juz</th>
                                                     <th>Nama Surat</th>
                                                     <th>Ayat</th>
@@ -65,10 +65,10 @@
                                                                 </form>
                                                             </div>
                                                         </td>
-                                                        <td>{{ $tahsin['grup'] }}</td>
-                                                        <td>Senin - Rabu</td>
                                                         <td><img src="{{ asset('img/'.$tahsin->gambar) }}" width="100" alt=""></td>
                                                         <td>{{$tahsin['nama']}}</td>
+                                                        <td>{{ $tahsin['grup'] }}</td>
+                                                        <td>Senin - Rabu</td>
                                                         <td>Juz 30</td>
                                                         <td>{{$tahsin['surat']}}</td>
                                                         <td>{{$tahsin['ayat']}}</td>
