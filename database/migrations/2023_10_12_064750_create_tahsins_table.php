@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('tahsins', function (Blueprint $table) {
             $table->id();
             $table->foreignId('category_id')->nullable();
-            $table->string('grup');
             $table->string('gambar')->nullable();
             $table->string('nama')->nullable();
             $table->string('surat')->nullable();

@@ -17,7 +17,7 @@
                     <h4 class="card-title m-t-10 text-center">Tambah Grup</h4>
                 </div>                            
                 <div class="ml-5">
-                        <form action="/tahsin/simpan" method="post" enctype="multipart/form-data">
+                        <form action="/tahsin/simpang" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="mb-3 w-50">
                                 <label for="grup" class="form-label"><h5>Nama Grup</h5></label>

@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     use HasFactory;
-    protected $guarded = ['id'];
+    protected $guarded = [];
 
     public function posts()
     {
@@ -18,5 +18,10 @@ class Category extends Model
     public function member()
     {
         return $this->hasMany(Member::class);
+    }
+
+    public function tahsin()
+    {
+        return $this->hasMany(Tahsin::class);
     }
 }

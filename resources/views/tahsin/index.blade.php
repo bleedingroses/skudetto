@@ -67,7 +67,7 @@
                                                         </td>
                                                         <td><img src="{{ asset('img/'.$tahsin->gambar) }}" width="100" alt=""></td>
                                                         <td>{{$tahsin['nama']}}</td>
-                                                        <td>{{ $tahsin['grup'] }}</td>
+                                                        <td>{{ $tahsin->category->grup }}</td>
                                                         <td>Senin - Rabu</td>
                                                         <td>Juz 30</td>
                                                         <td>{{$tahsin['surat']}}</td>
