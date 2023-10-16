@@ -14,13 +14,14 @@ return new class extends Migration
         Schema::create('tahsins', function (Blueprint $table) {
             $table->id();
             $table->foreignId('category_id')->nullable();
-            $table->enum('grup', ['Umar Bin Khattab', 'Utsman Bin Affan', 'Abu Bakar']);
-            $table->string('gambar');
-            $table->string('nama');
+            $table->string('grup');
+            $table->string('gambar')->nullable();
+            $table->string('nama')->nullable();
             $table->string('surat')->nullable();
             $table->string('ayat')->nullable();
             $table->timestamps();
         });
+
     }
 
     /**

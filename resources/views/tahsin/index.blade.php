@@ -12,9 +12,9 @@
                 <!-- ============================================================== -->
                 <!-- Bread crumb and right sidebar toggle -->
                 <!-- ============================================================== -->
-                <div class="row page-titles justify-content-center">
+                <div class="row page-titles justify-content-between">
                     <a class="link-light" href="/tahsin/tambah"><button type="button" class="btn btn-info btn-rounded">Tambah Data Santri</button></a>
-
+                    <a class="link-info" href="/tahsin/tambahg"><button type="button" class="btn btn-rounded btn-outline-info">Tambah Grup</button></a>
                 </div>
                 
                 <!-- ============================================================== -->

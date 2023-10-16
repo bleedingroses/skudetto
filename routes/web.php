@@ -53,3 +53,5 @@ Route::get('/tahsin/{id}/ubah',[TahsinController::class, 'ubah']);
 Route::put('/tahsin/{id}',[TahsinController::class, 'update']);
 Route::delete('/tahsin/{id}',[TahsinController::class, 'destroy']);
 
+Route::get('/tahsin/tambahg',[TahsinController::class, 'tambah']);
+
