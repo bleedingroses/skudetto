@@ -22,7 +22,7 @@
                             <div class="justify-content-center w-50 mb-3">
                                 <label for="grup" class="form-label"><h5>Grup</h5></label>
                                 <select name="grup" id="grup" class="form-control form-control-line">
-                                        <option selected>{{ $tahsin->grup }}</option>
+                                        <option selected>Pilih Grup</option>
                                         <option value="Umar Bin Khattab">Umar Bin Khattab</option>
                                         <option value="Utsman Bin Affan">Utsman Bin Affan</option>
                                         <option value="Ali Bin Abi Thalib">Ali Bin Abi Thalib</option>
