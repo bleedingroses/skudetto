@@ -14,7 +14,7 @@
             <!-- ============================================================== -->
             <div class="card">
                 <div class="align-self-center">
-                    <h4 class="card-title m-t-10 text-center">Tambah Data Santri</h4>
+                    <h4 class="card-title m-t-10 text-center">Tambah Grup</h4>
                 </div>                            
                 <div class="ml-5">
                         <form action="/tahsin/simpan" method="post" enctype="multipart/form-data">

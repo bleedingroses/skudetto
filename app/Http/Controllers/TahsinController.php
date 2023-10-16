@@ -18,6 +18,11 @@ class TahsinController extends Controller
         return view('tahsin.tambah');
     }
 
+    public function tambahg()
+    {    
+        return view('tahsin.tambahg');
+    }
+
     public function simpan(Request $request)
     {
         // dd($request->except(['_token', 'submit']));
