@@ -14,8 +14,9 @@ class TahsinController extends Controller
     }
     
     public function tambah()
-    {    
-        return view('tahsin.tambah');
+    {
+        $categories = Category::all();    
+        return view('tahsin.tambah', compact('categories'));
     }
 
     public function simpan(Request $request)
@@ -34,8 +35,8 @@ class TahsinController extends Controller
     public function ubah($id)
     {
         $tahsin = Tahsin::find($id);
-        return view('tahsin.ubah', 
-            compact(['tahsin']));
+        $categories = Category::all(); 
+        return view('tahsin.ubah', compact('tahsin','categories'));
     }
 
     public function update($id, Request $request)

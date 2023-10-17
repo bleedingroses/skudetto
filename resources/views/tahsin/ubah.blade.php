@@ -21,12 +21,12 @@
                         @method('put')
                         @csrf
                             <div class="mb-3 w-50">
-                                <label for="grup" class="form-label"><h5>Grup</h5></label>
-                                <select name="grup" id="grup" class="form-control form-control-line">
-                                        <option selected>{{ $tahsin->grup }}</option>
-                                        <option value="Umar Bin Khattab">Umar Bin Khattab</option>
-                                        <option value="Utsman Bin Affan">Utsman Bin Affan</option>
-                                        <option value="Ali Bin Abi Thalib">Ali Bin Abi Thalib</option>
+                                <label for="category_id" class="form-label"><h5>Grup</h5></label>
+                                <select name="category_id" id="category_id" class="form-control form-control-line">
+                                        <option value="">{{ $tahsin->category->grup }}</option>
+                                        @foreach ($categories as $category)
+                                            <option value="{{ $category->id }}">{{ $category->grup }}</option>                                            
+                                        @endforeach
                                 </select><br>
                             </div>
                             <div class="mb-3 w-50">

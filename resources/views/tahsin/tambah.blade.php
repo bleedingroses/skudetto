@@ -20,12 +20,12 @@
                         <form action="/tahsin/simpan" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="justify-content-center w-50 mb-3">
-                                <label for="grup" class="form-label"><h5>Grup</h5></label>
-                                <select name="grup" id="grup" class="form-control form-control-line">
-                                        <option selected>Pilih Grup</option>
-                                        <option value="Umar Bin Khattab">Umar Bin Khattab</option>
-                                        <option value="Utsman Bin Affan">Utsman Bin Affan</option>
-                                        <option value="Ali Bin Abi Thalib">Ali Bin Abi Thalib</option>
+                                <label for="category_id" class="form-label"><h5>Grup</h5></label>
+                                <select name="category_id" id="category_id" class="form-control form-control-line">
+                                        <option value="">Pilih Grup</option>
+                                        @foreach ($categories as $category)
+                                            <option value="{{ $category->id }}">{{ $category->grup }}</option>                                            
+                                        @endforeach
                                 </select><br>
                             </div><br>
                             <div class="mb-3 w-50">
